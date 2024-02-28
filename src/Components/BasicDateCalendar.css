@@ -1,0 +1,28 @@
+.reponsive-picker{
+    margin-right: 20px;
+
+}
+
+.date-picker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.mobile-picker {
+    display: none !important;
+}
+
+.basic-date-calendar > h2 {
+    text-align: center;
+}
+
+@media  only screen and (max-width: 500px){
+    .reponsive-picker{
+        margin-right: 0;
+        margin-bottom: 5px;
+    
+    }
+    
+}

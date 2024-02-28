@@ -1,0 +1,43 @@
+.home-info {
+/* display: flex; */
+    flex:0.8;
+    background-color: #f9f9f9;
+    /* height: 100%; */
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.home-info__area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .5em;
+    gap: 1em;
+}
+
+.home-info-card__thumbnail {
+  
+    width: 70px;
+    height: 60px;
+    padding-right: 10px;
+
+}
+
+@media  only screen and (max-width: 1000px){
+    .home-info__area{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+  
+    }
+    
+}
+@media  only screen and (min-width: 1575px){
+    .home-info__area{
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+  
+    }
+    
+}

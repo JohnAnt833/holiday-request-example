@@ -1,0 +1,36 @@
+.home-info-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  width: 25em;
+  min-height: 8em;
+  color: white;
+  border-radius: 0.5em;
+  outline: 3px solid #17f4a5;
+
+  flex-grow: 0;
+  flex-shrink: 999999;
+}
+
+.home-info-card__details {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.home-info-card__text {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .home-info-card {
+    width: 20em;
+    min-height: 6em;
+  }
+  .home-info-card__text {
+    font-size: 0.75rem;
+  }
+}
